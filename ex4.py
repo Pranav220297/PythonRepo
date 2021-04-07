@@ -8,9 +8,3 @@ def largest(a,b,c):
     else:
         return c
     
-a = float(input("Pls enter the first number "))
-b = float(input("Pls enter the second number ")) 
-c = float(input("Pls enter the third number "))
-
-larg = largest(a,b,c)
-print(larg, 'is LARGEST')

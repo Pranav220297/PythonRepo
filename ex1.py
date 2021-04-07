@@ -1,8 +1,9 @@
 '''
 Create a program to compare three numbers and find the bigger numbers.
  [topics covered: identified, variable, types, operator, if statement]
- '''
  
+ '''
+ # This is my first program
 a = float(input("Pls enter the first number "))
 
 b = float(input("Pls enter the second number ")) 

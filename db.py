@@ -12,15 +12,17 @@ def verifyUser(uid, passw):
     sql = "SELECT * FROM user WHERE userid ='" +uid+"'"
     cursor.execute(sql)
     info = cursor.fetchone()
+
+    if(info!= None):
     
-    if(passw == info[1]):
-        return True
+        if(passw == info[1]):
+            return True
+        else:
+            return False
     else:
         return False
      
-output = verifyUser('def','45')
+output = verifyUser('de','45')
 print(output)
 
     
-
-
